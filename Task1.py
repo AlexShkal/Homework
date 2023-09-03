@@ -7,15 +7,9 @@ def add_mul(first: float, second: float) -> Tuple[float, float, float]:
     return first + second, first - second, first * second
 
 
-print("add_mul ->", add_mul(4.7, 3.5))
-
-
 # Реализовать функции деления, деления нацело и нахождения остатка от деления.
 def div_int_rem(first: float, second: float) -> Tuple[float, float, float]:
     return first / second, first // second, first % second
-
-
-print("div_int_rem ->", div_int_rem(6.8, 3.5))
 
 
 # Обменять два целочисленных значение с помощью битового xor не используя промежуточноые переменные.
@@ -29,9 +23,6 @@ def xor_swap(first: int, second: int) -> Tuple[int, int]:
 # Вернуть наименьшее число, используя условный оператор.
 def min_conditional(first: float, second: float) -> float:
     return first if first < second else second
-
-
-print("min_conditional ->", min_conditional(21.5, 21.9))
 
 
 # Реализовать функции умножения на 2, 8 и 32 с помощью битовых операций сдвига.
