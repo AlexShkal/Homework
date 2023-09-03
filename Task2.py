@@ -12,7 +12,7 @@ def build_list_from_args(*args) -> List:
     return list(args)
 
 
-# Сконструировать и вернуть список из переданных аргументов, имеющих тип int.
+# Сконструировать и вернуть список из переданных аргументов, имеющих тип int
 def build_int_list_from_args(*args) -> List[int]:
     return list(i for i in args if type(i) == int)
 
